@@ -1,7 +1,13 @@
 clear
+echo "make sure you are connected to the internet."
+echo "make sure you installed termux from fdroid."
+echo "to reset termux uninstall and reinstall termux."
+echo "make sure to give termux permissions to run in the"
+echo "background in your android settings."
+echo ""
 echo "you will be prompted mulitple times"
 echo "just hit the enter key each time"
-echo "the install will start in 30 seconds"
+echo "the install will start in 60 seconds"
 sleep 30
 pkg update -y
 pkg upgrade -y
