@@ -1,5 +1,5 @@
-pkg update
-pkg upgrade
+pkg update -y
+pkg upgrade -y
 pkg install -y proot
 pkg install -y proot-distro
 proot-distro install debian
